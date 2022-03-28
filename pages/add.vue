@@ -42,19 +42,19 @@
         Пол : {{ el.sex }} <br />
         <img
           v-if="el.type === 'cow'"
-          src="cow_img.jpg"
+          src="/cow_img.jpg"
           alt=""
           class="anim__img"
         />
         <img
           v-if="el.type === 'rabbit'"
-          src="rabbit_img.jpg"
+          src="/rabbit_img.jpg"
           alt=""
           class="anim__img"
         />
         <img
           v-if="el.type === 'sheep'"
-          src="sheep_img.jpg"
+          src="/sheep_img.jpg"
           alt=""
           class="anim__img"
         />
