@@ -3,7 +3,7 @@
     <div v-if="info">
       <h1 class="heading">Страница о нашем роддоме</h1>
 
-      <p v-html="info.text" class="about__text"></p>
+      <p class="about__text" v-html="info.text"></p>
     </div>
     <LoaderComponent v-else />
   </div>
