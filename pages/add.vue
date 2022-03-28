@@ -42,19 +42,19 @@
         Пол : {{ el.sex }} <br />
         <img
           v-if="el.type === 'cow'"
-          src="https://6241acff670bdf000a45906b--wonderful-moonbeam-559db1.netlify.app/cow_img.jpg"
+          src="cow_img.jpg"
           alt=""
           class="anim__img"
         />
         <img
           v-if="el.type === 'rabbit'"
-          src="https://6241acff670bdf000a45906b--wonderful-moonbeam-559db1.netlify.app/rabbit_img.jpg"
+          src="rabbit_img.jpg"
           alt=""
           class="anim__img"
         />
         <img
           v-if="el.type === 'sheep'"
-          src="https://6241acff670bdf000a45906b--wonderful-moonbeam-559db1.netlify.app/sheep_img.jpg"
+          src="sheep_img.jpg"
           alt=""
           class="anim__img"
         />
